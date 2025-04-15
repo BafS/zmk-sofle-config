@@ -1,29 +1,27 @@
-# Sofle
+# Update List
 
-- [中文](README.md)
-- [English](README_EN.md)
-
-## 更新列表
+## Changelog
 
 - 2024/12/21
-  1. 增加zmk-studio支持（只需要刷新左手即可使用）。
+  1. Added zmk-studio support (just refresh the left half to use).
 - 2024/10/24
-  1. 修改供电模式，功耗降低。
-  2. 修正RGB供电自动关闭的功能。
-- 2025/3/30 增加睡眠进入时间1小时  增加防抖时间 优化睡眠后功耗 
-- 2025/8/22
-  1. 更新了soft off。当您同时按下 Q、S 和 Z 键并按住 2 秒钟时，键盘将进入深度睡眠状态，无法通过按键唤醒。携带外出时可以使用此功能。激活方式为按一次复位开关。
-  2. 这个月，我还更新了矮轴版本sofle和corne的外壳。框架和底板加厚了，复位开关的开口也进行了调整，可以轻松按下复位开关。目前，我们仍在构思如何设计带有倾斜支架的外壳。如果您仔细检查过 PCB，您会注意到有用于扩展 IO 的预留接口。不知道有没有人能够使用它们，我会尝试一下！
-  3. 右侧键盘屏幕上的GIF动画被移除，这将显著降低右侧键盘的功耗。
+  1. Changed power mode — reduced power consumption.  
+  2. Fixed automatic RGB power-off feature.
+- 2025/03/30
+  - Added 1-hour sleep entry time.  
+  - Increased debounce time.  
+  - Optimized post-sleep power consumption.
+- 2025/08/22
+  1. Updated soft off: press and hold Q + S + Z for 2 seconds to enter deep sleep; keyboard cannot be woken by keys while in this state — useful when carrying the keyboard. Reactivate by pressing the reset switch once.  
+  2. Updated low-profile Sofle and Corne cases this month: thicker frame and bottom plate, adjusted reset-switch opening so the reset switch is easy to press. Still designing a version with a tilted stand. Note: the PCB has reserved headers for expanded I/O — will test usage.  
+  3. Removed GIF animation on the right-half keyboard screen to significantly reduce right-half power consumption.
 
-> 如果您的键盘于2025年8月22之前更新，请更新最新的固件。
->
+> If your keyboard was updated before 2025/08/22, please update to the latest firmware.
 
-## 联系我
+# Contact Me
 
-如需3D打印的模型文件或者键盘有任何异常和故障，请联系380465425@qq.com
+For 3D printed model files or any issues and malfunctions with the keyboard, please contact 380465425@qq.com
 
-## Sofle键位图
+# Sofle Keymap
 
-![Sofle键位图](keymap-drawer/eyelash_sofle.svg)
-
+<img src="keymap-drawer/sofle.svg" >
